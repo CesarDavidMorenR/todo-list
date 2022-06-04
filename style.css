@@ -126,6 +126,10 @@ body{
     
 }
 
+#prioriti_one{
+    background-color: red;
+}
+
 .urgent_style{
     margin-left: 5px;
 

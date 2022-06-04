@@ -1,10 +1,15 @@
 // clickear prioridad->border color: different y al añdir new task tambien
 // funcion que en click se añanda todo
 
-document.querySelector();
-document.querySelector();
-document.querySelector();
+const prioriti_one = document.querySelector('#prioriti_one');
+/* document.querySelector();
+document.querySelector(); */
 
+
+prioriti_one.addEventListener('click', () => {
+
+ prioriti_one.style.borderColor = "green";
+});
 
 //a Add and delte task
 
