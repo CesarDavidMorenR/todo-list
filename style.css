@@ -123,15 +123,24 @@ body{
     color: #111111;
     font-weight: 500;
     border-radius: 5px;
-    background-color: #fbd6c1;
+    
 }
 
 .urgent_style{
-    
+    margin-left: 5px;
+
 }
 
 .medium_style{
     margin-right: 7px;
     margin-left: 7px;
     transform:translateY(6px);
+}
+
+
+
+.urgent_style:hover,
+.normal_style:hover,
+.medium_style:hover{
+background-color: #fbd6c1;
 }
